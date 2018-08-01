@@ -28,20 +28,20 @@ class App extends React.Component {
         <div>
           First Name
           <input type="text" name="firstName" id="firstName" placeholder="first Name"/>
-          <br />
+          <br /><br/>
           Last Name
           <input type="text" name="lastName" id="lastName" placeholder="Second Name"/>
-          <br />
+          <br /><br/>
           Contact Number
           <input type="text" name="contactNumber" id="contactNumber" placeholder="Contact Number"/>
-          <br />
+          <br /><br/>
           Address
           <input type="text" name="adress" id="address" placeholder="Address"/>
-          <br />
+          <br /><br/>
           <button onClick={this.props.buttonClicked1}> submit </button>
         
         </div>
-      
+        <br/><br/>
         Name {this.props.firstName + this.props.lastName}<br/>
         Contact Number {this.props.contactNumber}<br/>
         Address {this.props.address} <br/>

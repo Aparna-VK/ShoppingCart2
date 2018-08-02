@@ -1,23 +1,23 @@
 const initialState = {
-  firstName :"",
-  lastName: "",
-  contactNumber:"",
-  addres:""
+    firstName :"",
+    lastName: "",
+    contactNumber:"",
+    addres:""
 };
 const formSubmit = (state = initialState, action) => {
-  console.log(action.firstName);
-  switch (action.type) {
-    case 'BUTTON_CLICKED':
-      return {
-        ...state,
-        firstName: action.firstName1,
-        lastName: action.lastName1,
-        contactNumber: action.contactNumber1,
-        address: action.address1
+    console.log(action.firstName);
+    switch (action.type) {
+    case "BUTTON_CLICKED":
+        return {
+            ...state,
+            firstName: action.firstName1,
+            lastName: action.lastName1,
+            contactNumber: action.contactNumber1,
+            address: action.address1
 
-      };
+        };
     default:
-      return state;
-  }
-}
+        return state;
+    }
+};
 export default formSubmit;

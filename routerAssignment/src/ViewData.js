@@ -6,17 +6,17 @@ const mapStateToProps = state => ({
     lastName : state.formSubmit.lastName,
     contactNumber : state.formSubmit.contactNumber,
     address : state.formSubmit.address
-  });
+});
 
 class ViewData extends React.Component{ 
     render(){
-return(
-    <div>
+        return(
+            <div>
     Name : { this.props.firstName + this.props.lastName}<br/><br/>
     Contact Number : { this.props.contactNumber}<br/><br/>
     Address : { this.props.address}<br/><br/>
-    </div>
-    );
+            </div>
+        );
+    }
 }
-};
 export default connect(mapStateToProps, null)(ViewData);

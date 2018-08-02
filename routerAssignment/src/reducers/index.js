@@ -1,5 +1,5 @@
-import { combineReducers } from 'redux';
-import  formSubmit from './formSubmit';
+import { combineReducers } from "redux";
+import  formSubmit from "./formSubmit";
 export default combineReducers({
-  formSubmit
-})
+    formSubmit
+});

@@ -35,6 +35,7 @@ const home = () => (
     <li>Click Submit Button</li>
     <li>Go to view details to verify the data entered</li>
   </ul>
+  <hr/>
 </div>
 );
 

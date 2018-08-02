@@ -30,9 +30,11 @@ class App extends React.Component {
 
 const home = () => (
 <div>
+  <ul>
     <li>Enter form details</li>
     <li>Click Submit Button</li>
     <li>Go to view details to verify the data entered</li>
+  </ul>
 </div>
 );
 
